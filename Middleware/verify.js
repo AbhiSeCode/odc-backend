@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 const Admin = require("../Models/AdminModel");
-const Doctor = require("../Models/doctorModel");
-const Patient = require("../Models/patientModel");
+const Doctor = require("../Models/DoctorModel");
+const Patient = require("../Models/PatientModel");
 
 const verifyToken = async (req, res, next) => {
   try {
